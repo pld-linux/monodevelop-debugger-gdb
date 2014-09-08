@@ -2,20 +2,20 @@
 Summary:	GDB debugger support for MonoDevelop
 Summary(pl.UTF-8):	Obsługa debuggera GDB dla programu MonoDevelop
 Name:		monodevelop-debugger-gdb
-%define	mainver	4.2.2
-%define	subver	2
+%define	mainver	5.0.1
+%define	subver	0
 Version:	%{mainver}.%{subver}
 Release:	1
 License:	MIT
 Group:		Development/Tools
 Source0:	http://download.mono-project.com/sources/monodevelop-debugger-gdb/%{name}-%{mainver}-%{subver}.tar.bz2
-# Source0-md5:	c18d13045a9dadf3239bc00a76d5ad8c
+# Source0-md5:	4292cb70a2a4cab1181d8fba922b8c77
 URL:		http://monodevelop.com/
 BuildRequires:	mono-csharp
-BuildRequires:	monodevelop >= 4.2.2
+BuildRequires:	monodevelop >= 5.0.1
 BuildRequires:	pkgconfig
 Requires:	gdb
-Requires:	monodevelop >= 4.2.2
+Requires:	monodevelop >= 5.0.1
 ExcludeArch:	i386
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.mono
 Summary:	GDB debugger support for MonoDevelop
 Summary(pl.UTF-8):	Obsługa debuggera GDB dla programu MonoDevelop
 Name:		monodevelop-debugger-gdb
